@@ -4,16 +4,27 @@
 	"name": "create-block/better-gallery",
 	"version": "0.1.0",
 	"title": "Better Gallery",
-	"category": "widgets",
-	"icon": "gallery",
+	"category": "media",
+	"icon": "format-gallery",
 	"description": "Example block scaffolded with Create Block tool.",
 	"example": {},
 	"supports": {
-		"html": false
+		"html": false,
+		"align": ["wide", "full"]
 	},
 	"textdomain": "better-gallery",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",
 	"style": "file:./style-index.css",
-	"viewScript": "file:./view.js"
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"images": {
+			"type": "array",
+			"default": []
+		},
+		"align": {
+        "type": "string",
+        "default": "wide"
+    }
+	}
 }
