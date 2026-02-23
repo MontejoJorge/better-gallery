@@ -95,18 +95,18 @@ function renderGallery(container: HTMLElement) {
     gap,
   );
 
-  container.style.setProperty('--better-gallery-gap', `${gap}px`);
+  container.style.setProperty('--better-gallery-layout-gap', `${gap}px`);
   container.innerHTML = '';
 
   layout.forEach((row) => {
     const rowEl = document.createElement('div');
-    rowEl.className = 'better-gallery-row';
+    rowEl.className = 'better-gallery-layout-row';
 
     row.forEach((item) => {
       const img = document.createElement('img');
       img.src = item.image.url;
       img.alt = item.image.alt ?? '';
-      img.className = 'better-gallery-image';
+      img.className = 'better-gallery-layout-image';
       img.style.width = item.fixedWidth
         ? `${item.fixedWidth}px`
         : `${item.widthPercent}%`;
@@ -119,7 +119,7 @@ function renderGallery(container: HTMLElement) {
 }
 
 document
-  .querySelectorAll<HTMLElement>('.better-gallery-frontend')
+  .querySelectorAll<HTMLElement>('.better-gallery-layout-frontend')
   .forEach((container) => {
     renderGallery(container);
 

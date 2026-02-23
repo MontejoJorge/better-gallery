@@ -17,13 +17,13 @@ export default function Edit({
   return (
     <div {...useBlockProps()}>
       {hasImages ? (
-        <div className="better-gallery-editor-grid">
+        <div className="better-gallery-layout-editor-grid">
           {attributes.images.map((i) => (
-            <div key={i.id} className="better-gallery-editor-cell">
+            <div key={i.id} className="better-gallery-layout-editor-cell">
               <img
                 src={i.sizes?.medium?.url || i.url}
                 alt={i.alt}
-                className="better-gallery-editor-image"
+                className="better-gallery-layout-editor-image"
               />
             </div>
           ))}

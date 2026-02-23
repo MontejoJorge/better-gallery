@@ -1,4 +1,4 @@
-# Better Gallery
+# Better Gallery Layout
 
 A WordPress block that displays your photos in a beautiful justified layout — each row fills the full width while keeping every image's original proportions, just like Google Photos.
 

@@ -9,7 +9,7 @@ export default function save({
     <div {...useBlockProps.save()}>
       {attributes.images?.length > 0 && (
         <div
-          className="better-gallery-frontend"
+          className="better-gallery-layout-frontend"
           data-images={JSON.stringify(attributes.images)}
           data-gap={attributes.gap}
           data-target-row-height={attributes.targetRowHeight}

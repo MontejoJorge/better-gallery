@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name:       Better Gallery
+ * Plugin Name:       Better Gallery Layout
  * Description:       Example block scaffolded with Create Block tool.
- * Plugin URI:        https://github.com/MontejoJorge/better-gallery
+ * Plugin URI:        https://github.com/MontejoJorge/better-gallery-layout
  * Version:           0.1.0
  * Requires at least: 6.8
  * Requires PHP:      7.4
@@ -10,7 +10,7 @@
  * Author URI:        https://github.com/MontejoJorge
 * License:           GNU GENERAL PUBLIC LICENSE v3.0
 * License URI:       https://www.gnu.org/licenses/gpl-3.0.html
- * Text Domain:       better-gallery
+ * Text Domain:       better-gallery-layout
  *
  * @package CreateBlock
  */

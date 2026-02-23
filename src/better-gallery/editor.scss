@@ -1,15 +1,15 @@
-.wp-block-create-block-better-gallery {
+.wp-block-create-block-better-gallery-layout {
   padding: 10px;
 }
 
-.better-gallery-editor-grid {
+.better-gallery-layout-editor-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, 150px);
   gap: 10px;
   justify-content: center;
 }
 
-.better-gallery-editor-cell {
+.better-gallery-layout-editor-cell {
   width: 150px;
   height: 150px;
   background-color: #f0f0f0;
@@ -22,7 +22,7 @@
   box-sizing: border-box;
 }
 
-.better-gallery-editor-image {
+.better-gallery-layout-editor-image {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;

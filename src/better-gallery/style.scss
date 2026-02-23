@@ -1,19 +1,19 @@
-.wp-block-create-block-better-gallery {
+.wp-block-create-block-better-gallery-layout {
   padding: 2px;
 }
 
-.better-gallery-frontend {
-  .better-gallery-row {
+.better-gallery-layout-frontend {
+  .better-gallery-layout-row {
     display: flex;
     justify-content: flex-start;
-    gap: var(--better-gallery-gap);
+    gap: var(--better-gallery-layout-gap);
 
     &:not(:last-child) {
-      margin-bottom: var(--better-gallery-gap);
+      margin-bottom: var(--better-gallery-layout-gap);
     }
   }
 
-  .better-gallery-image {
+  .better-gallery-layout-image {
     object-fit: cover;
     object-position: center;
     display: block;
