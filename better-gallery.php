@@ -2,10 +2,12 @@
 /**
  * Plugin Name:       Better Gallery
  * Description:       Example block scaffolded with Create Block tool.
+ * Plugin URI:        https://github.com/MontejoJorge/better-gallery
  * Version:           0.1.0
  * Requires at least: 6.8
  * Requires PHP:      7.4
  * Author:            MontejoJorge
+ * Author URI:        https://github.com/MontejoJorge
  * License:           CC BY-NC-SA 4.0
  * License URI:       https://creativecommons.org/licenses/by-nc-sa/4.0/
  * Text Domain:       better-gallery
